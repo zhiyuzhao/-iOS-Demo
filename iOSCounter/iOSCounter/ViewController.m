@@ -26,6 +26,9 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(valueChanged:) name:CounterModelChanged object:_counter];
 }
 
+- (void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
