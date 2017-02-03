@@ -10,11 +10,7 @@
 #import "Counter.h"
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *counterLabel;
-@property (weak, nonatomic) IBOutlet UIButton *increaseButton;
-@property (weak, nonatomic) IBOutlet UIButton *decreaseButton;
 
-@property (nonatomic, strong) Counter *counter;
 @end
 
 @implementation ViewController
@@ -30,14 +26,10 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 - (void)valueChanged:(id)sender {
     _counterLabel.text = [NSString stringWithFormat:@"%ld",_counter.count];
 }
+
 - (IBAction)clickIncreaseButton:(id)sender {
     [_counter increment];
 }

@@ -8,8 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+@class Counter;
+
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *counterLabel;
+@property (weak, nonatomic) IBOutlet UIButton *increaseButton;
+@property (weak, nonatomic) IBOutlet UIButton *decreaseButton;
+
+@property (nonatomic, strong) Counter *counter;
+
+- (IBAction)clickIncreaseButton:(id)sender;
+- (IBAction)clickDecreaseButton:(id)sender;
 
 @end
 

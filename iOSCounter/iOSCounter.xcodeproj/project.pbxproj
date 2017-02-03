@@ -16,6 +16,7 @@
 		5A0AE6CD1E43523600AE8F64 /* iOSCounterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0AE6CC1E43523600AE8F64 /* iOSCounterUITests.m */; };
 		5A0AE6DC1E4353B500AE8F64 /* Counter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0AE6DB1E4353B500AE8F64 /* Counter.m */; };
 		5A0AE6DE1E435BE800AE8F64 /* iOSCounterModelTestsCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0AE6DD1E435BE800AE8F64 /* iOSCounterModelTestsCase.m */; };
+		5A36FB771E44615C0026F2D3 /* iOSCounterViewControllerTestsCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A36FB761E44615C0026F2D3 /* iOSCounterViewControllerTestsCase.m */; };
 		80EE29A87B9D4845676A21E2 /* libPods-iOSCounterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E04E30AB01B9139918B004 /* libPods-iOSCounterTests.a */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		5A0AE6DA1E4353B500AE8F64 /* Counter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Counter.h; sourceTree = "<group>"; };
 		5A0AE6DB1E4353B500AE8F64 /* Counter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Counter.m; sourceTree = "<group>"; };
 		5A0AE6DD1E435BE800AE8F64 /* iOSCounterModelTestsCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSCounterModelTestsCase.m; sourceTree = "<group>"; };
+		5A36FB761E44615C0026F2D3 /* iOSCounterViewControllerTestsCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSCounterViewControllerTestsCase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				5A0AE6DD1E435BE800AE8F64 /* iOSCounterModelTestsCase.m */,
+				5A36FB761E44615C0026F2D3 /* iOSCounterViewControllerTestsCase.m */,
 				5A0AE6C31E43523600AE8F64 /* Info.plist */,
 			);
 			path = iOSCounterTests;
@@ -368,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A0AE6DE1E435BE800AE8F64 /* iOSCounterModelTestsCase.m in Sources */,
+				5A36FB771E44615C0026F2D3 /* iOSCounterViewControllerTestsCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
